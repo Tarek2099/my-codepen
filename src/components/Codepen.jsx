@@ -49,9 +49,9 @@ const Codepen = () => {
             className="resultFrame"
           />
         </div>
-        {isConsoleOpen && (
+        {/* {isConsoleOpen && (
           <Console value={js} isOpen={isConsoleOpen} onClose={handleConsole} />
-        )}
+        )} */}
         <div className="console-container">
           <button className="console" onClick={handleConsole}>
             Console
